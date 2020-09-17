@@ -13,10 +13,10 @@ public class Alphabet
     // and should return an int (the number of vowels in that string)
     public int numberOfVowels(String s)
     {
-        return numberOfContained(s, vowels);
+        return numberOfMatches(s, vowels);
     }
 
-    private int numberOfContained(String s, char[] matchingContainer)
+    private int numberOfMatches(String s, char[] matchingContainer)
     {
         s = s.toLowerCase();
         int count = 0;
@@ -36,7 +36,7 @@ public class Alphabet
 
     public int numberOfConsonants(String s)
     {
-        return numberOfContained(s, consonants);
+        return numberOfMatches(s, consonants);
     }
 }
 
