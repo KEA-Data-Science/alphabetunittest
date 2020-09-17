@@ -40,6 +40,7 @@ public class Alphabet
     }
 }
 
+/* The code below is functional but repetitive. Couldn't drop it.. */
 //public class Alphabet
 //{
 //
